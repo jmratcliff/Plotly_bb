@@ -108,14 +108,14 @@ function buildCharts(sample) {
       marker: {
         size: sampleValues,
         color: otuIds,
-        colorscale: "YlGnBu"
+        colorscale: "Earth"
         },
     }];
 
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
       title: "Bacteria Cultures per Sample",
-      xaxis: {title: "Bacteria Specie ID"},
+      xaxis: {title: "Bacteria Species ID"},
       yaxis: {title: "Number of Bacteria Samples"},
       hovermode: "closest",
       paper_bgcolor: '41bad83a' 
@@ -144,13 +144,13 @@ function buildCharts(sample) {
       gauge: {
           axis: {range:[null, 10] },
           steps: [
-            {range:[0,2], color:"teal"},
-            {range:[2,4], color:"lightseagreen"},
-            {range:[4,6], color:"turquoise"},
-            {range:[6,8], color:"aquamarine"},
-            {range:[8,10], color:"lightcyan"}
+            {range:[0,2], color:"lightpink"},
+            {range:[2,4], color:"hotpink"},
+            {range:[4,6], color:"fuchsia"},
+            {range:[6,8], color:"mediumvioletred"},
+            {range:[8,10], color:"darkviolet"}
           ],
-          bar: { color: "darkslategrey" }
+          bar: { color: "black" }
       }
 
     }];
