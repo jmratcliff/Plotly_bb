@@ -1,5 +1,5 @@
 # Bellybutton Diversity Dashboard
-*Data visualization of bacteria dataset utilizing Plotly, D3, JavaScript and HTML
+*Data visualization of bacteria dataset utilizing Plotly, D3, JavaScript and HTML*
 
 ## Summary
 
